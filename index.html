@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Josephus Problem Simulation (k=2)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Josephus Problem Simulation (k = 2)</h1>
+
+  <div class="controls">
+    <input
+      type="number"
+      id="numPeople"
+      min="1"
+      max="50"
+      placeholder="Enter number of people (max 50)"
+    />
+    <button onclick="startSimulation()">Start</button>
+    <button onclick="stopSimulation()">Stop</button>
+    <button onclick="resumeSimulation()">Resume</button>
+  </div>
+
+  <div id="circle"></div>
+  <div id="log"><strong>Elimination Log:</strong><br /></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
