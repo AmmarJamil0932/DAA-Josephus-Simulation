@@ -1,4 +1,4 @@
-Josephus Problem Simulation (k = 2)
+#Josephus Problem Simulation (k = 2)
 This project is a simple web-based simulation of the Josephus Problem. In this problem, a group of people are arranged in a circle, and every 2nd person is eliminated one by one until only one person is left. The simulation shows this process visually, allowing the user to understand how the elimination proceeds and who the final survivor is.
 
 Objective
